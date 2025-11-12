@@ -1,0 +1,177 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[scale=0.85]{geometry}
+\usepackage{multicol}
+
+% Personal data
+\name{Rguez}{Sayf Eddine}
+\title{Full Stack Developer}
+\address{Hay Al-maahad, Hammam Zriba}{Zaghouan, Tunisia}
+\phone[mobile]{~+216~96~614~020}
+\email{eddinesayf127@gmail.com}
+\extrainfo{Other email: sayfeddine.rguez@esprit.tn}
+\social[linkedin]{sayf-eddine-909719365}
+\social[github]{saaayf}
+
+\begin{document}
+\makecvtitle
+
+% Profile Section
+\section{Profile}
+\cvitem{}{
+  Third-year engineering student specializing in Software Architecture Engineering at ESPRIT. Passionate about full stack development, software architecture, and technological innovation. Dynamic, autonomous, and highly adaptable.
+}
+
+% Skills Section
+\section{Technical Skills}
+\begin{multicols}{2}
+\begin{itemize}
+  \item \textbf{Languages:} Java, TypeScript, Python, C++, C\#, C, PHP
+  \item \textbf{Frameworks:} Spring Boot, Angular, Symfony, Qt, JavaFX, .Net, Flutter
+  \item \textbf{Web:} RESTful APIs, Keycloak, Bootstrap, SCSS
+  \item \textbf{Machine Learning:} Scikit-learn, Flask
+  \item \textbf{Desktop:} JavaFX, Qt (C++)
+  \item \textbf{Games:} SDL (Ubuntu), Arduino
+  \item \textbf{No-Code:} FlutterFlow
+  \item \textbf{Databases:} JPA/Hibernate, SQL
+  \item \textbf{Tools:} Git, Maven/Gradle, Agile
+\end{itemize}
+\end{multicols}
+
+% Experience Section
+\section{Professional Experience}
+
+\cventry{2025}{Engineering Intern – \textbf{Class Council Management System}}{ESPRIT TECH}{Ariana, Tunisia}{}{
+  \begin{itemize}
+    \item Developed a full-stack mobile application for managing class councils and school schedules using Flutter (Material Design) and Spring Boot REST API backend
+    \item Integrated Keycloak for secure authentication and role-based user management (Administrator / Teacher) with JWT authentication
+    \item Designed and developed a complete schedule management system with calendar view (monthly/weekly), agenda items, and automatic conflict detection
+    \item Implemented a real-time notification system with automatic reminders (2 hours before a session, 15 minutes before an agenda item) to optimize appointment management
+    \item Created an interactive dashboard displaying dynamic statistics on classes, teachers, schedules, and users with real-time visualizations
+  \end{itemize}
+}
+
+\cventry{2024}{Corporate Immersion Intern – \textbf{HR Management Desktop Application}}{F3T, Fraternité Tunisienne de Traitement Thermique}{Zaghouan, Tunisia}{}{
+  \begin{itemize}
+    \item Developed a desktop human resources management application using JavaFX for an industrial company
+    \item Implemented a complete HR management system including: employee management, daily time tracking, leave requests, monthly performance monitoring, and absence management
+    \item Developed employee features: clock in/out, justification of unexcused absences, and leave request submission with status tracking
+    \item Integrated a PDF report generation system for performance reports and time tracking history for analysis and archiving
+    \item Implemented a real-time notification system for tracking actions and statuses, improving communication between employees and managers
+  \end{itemize}
+}
+
+\cventry{2022}{Intern (Human and Social Training Internship)}{F3T, Fraternité Tunisienne de Traitement Thermique}{Zaghouan, Tunisia}{}{
+  \begin{itemize}
+    \item Discovered the professional world and industrial environment
+    \item Participated in human and social training activities
+  \end{itemize}
+}
+
+% Projects Section
+\newpage
+\section{Projects}
+
+\cventry{2025}{\textbf{SmartMediShop - Medical E-Commerce Mobile Application}}{}{}{}{
+  \begin{itemize}
+    \item Developed a full-stack mobile e-commerce application for medical products using Flutter/Dart with Firebase backend integration
+    \item Built comprehensive user management system with role-based access control (Admin, Nurse, Customer, Delivery Guy) and authentication via Firebase Auth and Google OAuth
+    \item Implemented Node.js/Express REST API backend with Firebase Admin SDK for push notifications, email services, and real-time data synchronization
+    \item Designed and developed appointment scheduling system with calendar integration, request management, and real-time notifications for healthcare professionals
+    \item Integrated Firebase Cloud Messaging (FCM) for push notifications, SQFlite for offline data storage, and geolocation services for delivery tracking
+    \item Built admin dashboard with analytics, user management, payment processing, and delivery management features with real-time updates
+  \end{itemize}
+}
+
+\cventry{2025}{\textbf{SmartMediShop - AI-Powered Fraud Detection System}}{}{}{}{
+  \begin{itemize}
+    \item Developed a full-stack e-commerce fraud detection system combining Machine Learning models with rule-based logic
+    \item Built Angular frontend with Material Design and Spring Boot REST API backend with JWT authentication
+    \item Implemented Python Flask API with hybrid fraud detection using Isolation Forest and Random Forest models
+    \item Trained and deployed ML models (Scikit-learn) with feature engineering for real-time transaction analysis
+    \item Integrated ML models with Spring Boot backend via REST API for seamless fraud detection processing
+  \end{itemize}
+}
+
+\cventry{2025}{\textbf{Intelligent Support Management System with ML Recommendation}}{}{}{}{
+  \begin{itemize}
+    \item Developed a complete full-stack web application with Spring Boot (backend) and Angular (frontend) including a support and ticket management system
+    \item Implemented an intelligent recommendation system based on BERT and TF-IDF to automatically recommend the top 3 administrators to resolve each ticket based on their skills and the problem description
+    \item Designed and developed a complete ticket system with public comments, internal comments for administrator communication, and real-time notification system for optimal user experience and accelerated problem resolution
+    \item Developed and deployed Machine Learning models with Flask (Python) and Scikit-learn for semantic ticket analysis and intelligent matching with administrator profiles
+    \item Integrated the ML recommendation engine with the web application via secure REST APIs and Keycloak integration for user management and authentication
+    \item Built a responsive and modern user interface with real-time ticket tracking, push notifications, and analytical dashboard for monitoring resolution performance
+  \end{itemize}
+}
+
+\cventry{2024}{\textbf{Desktop and Web Application with Symfony}}{}{}{}{
+  \begin{itemize}
+    \item Developed a desktop application with JavaFX
+    \item Developed a web application with Symfony (PHP)
+    \item Used a common database for both applications
+    \item Synchronized and managed data between both platforms
+  \end{itemize}
+}
+
+\cventry{2024}{\textbf{No-Code Mobile Development}}{}{}{}{
+  \begin{itemize}
+    \item Built mobile applications with FlutterFlow
+    \item Responsive design
+    \item Rapid prototyping
+  \end{itemize}
+}
+
+\cventry{2023}{\textbf{PHP Web Application}}{}{}{}{
+  \begin{itemize}
+    \item Developed a dynamic web application in native PHP
+    \item Created user-friendly interfaces
+    \item Managed database and users
+  \end{itemize}
+}
+
+\cventry{2022}{\textbf{SDL Game Development}}{}{}{}{
+  \begin{itemize}
+    \item Created a game with SDL on Ubuntu
+    \item Implemented game mechanics
+    \item Integrated controller with Arduino
+    \item Cross-platform optimization
+  \end{itemize}
+}
+
+% Education Section
+\section{Education}
+\cventry{2022--present}{Engineering cycle (3\textsuperscript{rd} year), major in Software Architecture Engineering}{ESPRIT (Private Higher School of Engineering and Technology)}{Ariana, Tunisia}{}{}
+
+% Languages Section
+\section{Languages}
+\cvitem{}{French (Fluent), English (Fluent), Arabic (Native)}
+
+% Certifications Section
+\section{Certifications}
+\cvitem{2025}{\textbf{AWS Academy Graduate - Cloud Foundations} -- AWS Academy (20 hours)}
+\cvitem{2025}{\textbf{Hashgraph Developer Course} -- Hedera (Distributed Ledger Technology)}
+\cvitem{2023}{\textbf{CCNA: Switching, Routing and Wireless Essentials} -- Cisco Networking Academy (NetAcad)}
+
+% Additional Skills Section
+\section{Additional Skills}
+\cvitem{}{Agile Development, Clean Code, Design Patterns}
+
+% Interests Section
+\section{Interests}
+\cvitem{}{Sports (football, hiking, etc.), Chess, Volunteering, Technology watch, Excursions, travel and adventure
+}
+
+% Activities Section
+\section{Extracurricular Activities}
+\cvitem{}{
+  \begin{itemize}
+    \item Former Scout member (Group Leader) for 4 years
+    \item Participated in an international camp in Turkey
+    \item Event manager during the National Endurance Day
+  \end{itemize}
+}
+
+\end{document}
